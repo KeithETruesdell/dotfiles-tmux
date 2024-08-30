@@ -1,0 +1,9 @@
+new-session -d -s org  
+
+new-window -t org:1 -n "org" "cd ~/documents/org"  
+new-window -t org:2 -n "pers" "cd ~/documents/personal"  
+new-window -t org:3 -n "writing" "cd ~/documents/writing"  
+
+select-window -t org:1  
+
+attach-session -t org  
